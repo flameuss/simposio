@@ -79,9 +79,15 @@ site-footer {
   align-items: center;
 }
 
+.logo {
+  flex-shrink: 0;
+}
+
 .logo img {
-  height: 40px; /* Ajustado para melhor proporção */
+  height: 40px;
+  width: auto;
   display: block;
+  object-fit: contain;
 }
 
 /* Desktop Menu */

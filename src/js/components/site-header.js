@@ -30,7 +30,7 @@ class SiteHeader extends HTMLElement {
       <header class="site-header">
         <div class="navbar">
           <div class="logo">
-            <a href="${isIndex ? '#hero' : 'index.html'}">
+            <a href="${isIndex ? '#hero' : 'index.html'}" data-target="hero">
               <img src="${logoMenubar}" alt="Logo Simpósio SPGCST" />
             </a>
           </div>
@@ -57,7 +57,7 @@ class SiteHeader extends HTMLElement {
   initMenuLogic() {
     const hamburger = this.querySelector('#hamburger');
     const navLinks = this.querySelector('#nav-links');
-    const links = this.querySelectorAll('.nav-links a');
+    const links = this.querySelectorAll('.nav-links a, .logo a');
 
     // Listener delegado para botões de CTA na Home (Programação e Inscrição)
     document.addEventListener('click', (e) => {
@@ -115,7 +115,14 @@ class SiteHeader extends HTMLElement {
           if (targetSection) {
             // Atualiza active class
             links.forEach(l => l.classList.remove('active'));
-            link.classList.add('active');
+            if (link.closest('.logo')) {
+              const inicioLink = this.querySelector('.nav-links a[data-target="hero"]');
+              if (inicioLink) {
+                inicioLink.classList.add('active');
+              }
+            } else {
+              link.classList.add('active');
+            }
 
             // Alterna a aba correspondente
             const sections = document.querySelectorAll('.view-section');
