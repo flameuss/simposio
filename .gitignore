@@ -4,10 +4,15 @@ node_modules/
 # Production build outputs
 dist/
 
+# Project specifications/docs
+docs/
+
+
 # Local Gemini/Playwright/MCP agent files
 .gemini/
 .tempmediaStorage/
 .playwright-mcp/
+.agents/
 *.log
 
 # System/IDE configs

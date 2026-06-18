@@ -1,3 +1,5 @@
+import logoMenubar from '../../assets/images/logo_menubar.png';
+
 class SiteHeader extends HTMLElement {
   connectedCallback() {
     const path = window.location.pathname;
@@ -25,7 +27,7 @@ class SiteHeader extends HTMLElement {
         <div class="navbar">
           <div class="logo">
             <a href="${isIndex ? '#hero' : 'index.html'}">
-              <img src="/src/assets/images/logo_menubar.png" alt="Logo Simpósio SPGCST" />
+              <img src="${logoMenubar}" alt="Logo Simpósio SPGCST" />
             </a>
           </div>
           <div class="hamburger" id="hamburger">☰</div>
