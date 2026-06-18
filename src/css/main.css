@@ -246,7 +246,7 @@ section h2 {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-top: clamp(30px, 8vh, 100px); /* Ajustado para ser responsivo com base na altura da tela */
+  padding-top: clamp(30px, 6vh, 100px); /* Ajustado para ser responsivo com base na altura da tela */
 }
 
 .hero-content {
