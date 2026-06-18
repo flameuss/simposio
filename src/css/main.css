@@ -66,13 +66,14 @@ site-footer {
   background-color: rgba(1, 10, 21, 0.75); /* Translúcido escuro correspondente à cor de fundo */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  padding: 15px 20px;
+  padding: 15px clamp(20px, 3%, 40px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   transition: background-color 0.3s ease;
 }
 
 .navbar {
-  max-width: 1400px;
+  width: 100%;
+  max-width: 1800px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
