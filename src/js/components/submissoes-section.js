@@ -28,10 +28,10 @@ class SubmissionsSection extends HTMLElement {
               <p class="card-desc text-muted">Atenção aos dois formulários específicos de submissão:</p>
               
               <div class="action-buttons-stack">
-                <a href="https://forms.gle/Eu8E66dznLZzitaX6" target="_blank" rel="noopener noreferrer" class="btn-primary btn-full text-center margin-bottom-sm">
+                <a href="https://forms.gle/ygEde6DDcP8DJ5oS8" target="_blank" rel="noopener noreferrer" class="btn-primary btn-full text-center margin-bottom-sm">
                   Apresentação em Banner (Inscritos Gerais)
                 </a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE8xn3PSW90hZsCa7PxWb3DOe6fjasb9XxG34-HDNgE5jvig/viewform?usp=preview" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
+                <a href="https://forms.gle/11TZ3NxF1VBXwj1R7" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
                   Apresentação Oral (Exclusivo Alunos PGCST)
                 </a>
               </div>
@@ -48,7 +48,7 @@ class SubmissionsSection extends HTMLElement {
             <div class="brutalist-card">
               <h3 class="card-title">DÚVIDAS OU SUPORTE</h3>
               <p class="card-desc">Dúvidas relacionadas a trabalhos ou plataforma? Entre em contato com a organização:</p>
-              <a href="mailto:contato@simposiocst.com.br" class="support-email">contato@simposiocst.com.br</a>
+              <a href="mailto:spgcst.inpe@gmail.com" class="support-email">spgcst.inpe@gmail.com</a>
             </div>
           </div>
 
