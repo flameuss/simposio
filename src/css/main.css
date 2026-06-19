@@ -631,7 +631,7 @@ section h2 {
 }
 
 /* Breakpoint para Celulares e Tablets */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hamburger {
     display: block; /* Revela hambúrguer */
   }
@@ -1343,7 +1343,7 @@ section h2 {
 }
 
 /* Responsividade do layout do local */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .map-wrapper {
     min-height: 320px;
   }
