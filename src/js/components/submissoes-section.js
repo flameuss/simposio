@@ -11,16 +11,21 @@ class SubmissionsSection extends HTMLElement {
           <div class="submissions-col-info">
             <div class="brutalist-card callout-card">
               <h3 class="card-title text-orange">📅 PRAZO PARA SUBMISSÃO</h3>
-              <p class="highlight-date">Até 10 de setembro de 2026</p>
+              <p class="highlight-date">Até 15 de agosto de 2026</p>
               <p class="card-desc">As submissões poderão ser efetuadas em português, inglês ou espanhol.</p>
             </div>
 
             <div class="brutalist-card">
-              <h3 class="card-title">NORMAS E TEMPLATE</h3>
-              <p class="card-desc">Utilize o modelo oficial para formatação do seu Resumo Expandido (apresentação no formato de banner).</p>
-              <a href="https://docs.google.com/document/d/1zc_y5p0T97LIuZqapUnDlhxbnzGbSTsy/edit?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
-                Baixar Template (.docx)
-              </a>
+              <h3 class="card-title">NORMAS E TEMPLATES</h3>
+              <p class="card-desc">Utilize os modelos oficiais para formatação do seu Resumo Expandido e Banner.</p>
+              <div class="action-buttons-stack">
+                <a href="/src/assets/templates/Template%20XIIISPGCST%202026%20-%20Resumo%20Expandido.docx" download="Template_XIIISPGCST_2026_Resumo_Expandido.docx" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center margin-bottom-sm">
+                  Baixar Template Resumo (.docx)
+                </a>
+                <a href="/src/assets/templates/XIII%20SPGCST%20-%20Banner.pptx" download="XIII_SPGCST_Banner.pptx" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
+                  Baixar Template Banner (.pptx)
+                </a>
+              </div>
             </div>
 
             <div class="brutalist-card">
@@ -28,10 +33,10 @@ class SubmissionsSection extends HTMLElement {
               <p class="card-desc text-muted">Atenção aos dois formulários específicos de submissão:</p>
               
               <div class="action-buttons-stack">
-                <a href="https://forms.gle/ygEde6DDcP8DJ5oS8" target="_blank" rel="noopener noreferrer" class="btn-primary btn-full text-center margin-bottom-sm">
+                <a href="https://forms.gle/QzTjzyWac2UwXLVW6" target="_blank" rel="noopener noreferrer" class="btn-primary btn-full text-center margin-bottom-sm">
                   Apresentação em Banner (Inscritos Gerais)
                 </a>
-                <a href="https://forms.gle/11TZ3NxF1VBXwj1R7" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
+                <a href="https://forms.gle/XGeARpVVJjcX2YZu7" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-full text-center">
                   Apresentação Oral (Exclusivo Alunos PGCST)
                 </a>
               </div>
