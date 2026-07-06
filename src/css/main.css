@@ -135,7 +135,8 @@ site-footer {
   letter-spacing: 1px;
   border-radius: var(--radius-button);
   transition: all 0.3s ease;
-  border: none;
+  border: 1px solid transparent;
+  text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -143,6 +144,7 @@ site-footer {
   color: var(--color-orange) !important;
   box-shadow: 4px 4px 0px var(--color-orange);
   transform: translate(-2px, -2px);
+  border-color: var(--color-orange);
 }
 
 /* Botão Secundário Brutalista Transparente */
@@ -563,6 +565,7 @@ section h2 {
 }
 
 .comissao-card {
+  display: block;
   background: rgba(255, 255, 255, 0.035);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius-button);
@@ -676,7 +679,7 @@ section h2 {
     border-radius: 0;
   }
 
-  .btn-primary {
+  .nav-links .btn-primary {
     width: 90% !important;
     box-sizing: border-box;
     margin-top: 10px;
