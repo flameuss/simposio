@@ -17,7 +17,7 @@ class MinicursoSection extends HTMLElement {
           </div>
           <div class="rule-item">
             <span class="rule-icon">⚠️</span>
-            <span><strong>Vagas Limitadas:</strong> Cada participante poderá se inscrever em apenas 1 minicurso ou trabalho de campo, que ocorrerão simultaneamente na manhã do dia <strong>22 de Outubro de 2026</strong>.</span>
+            <span><strong>Vagas Limitadas:</strong> Cada participante poderá se inscrever em apenas 1 minicurso ou trabalho de campo, que ocorrerão simultaneamente na manhã do dia <strong>23 de Outubro de 2026</strong>.</span>
           </div>
         </div>
 
